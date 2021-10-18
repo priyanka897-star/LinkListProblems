@@ -9,7 +9,6 @@ package linkedlistpracticeproblems;
 			this.next = null; 
 		}
 
-		
 		public K getKey() {
 			return key;
 		}
