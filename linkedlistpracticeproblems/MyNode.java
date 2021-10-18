@@ -13,11 +13,11 @@ public class MyNode<K> {
 		return key;
 	}
 
-	public void setKey(K key) {
+	public void setKey(K key){
 		this.key = key;
 	}
 
-	public MyNode getNext() {
+	public MyNode getNext(){
 		return next;
 	}
 
