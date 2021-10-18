@@ -1,34 +1,28 @@
 package linkedlistpracticeproblems;
 
-	public class Node<K> implements INode<K> {
-		private K key;
-		private Node next;
-		
-		public Node(K key) {
-			this.key = key;
-			this.next = null; 
-		}
+public class Node<K> implements INode<K> {
+	private K key;
+	private Node next;
 
-		public K getKey() {
-			return key;
-		}
+	public Node(K key) {
+		this.key = key;
+		this.next = null;
+	}
 
-		
-		public void setKey(K key) {
-			this.key = key;
-		}
+	public K getKey() {
+		return key;
+	}
 
-	
-		public INode<K> getNext() {
-			return next;
-		}
+	public void setKey(K key) {
+		this.key = key;
+	}
 
-		
-		public void setNext(INode next) {
-			this.next = (Node<K>) next;
-			
-		}	
-		
-		
+	public INode<K> getNext() {
+		return next;
+	}
+
+	public void setNext(INode next) {
+		this.next = (Node<K>) next;
+
+	}
 }
-

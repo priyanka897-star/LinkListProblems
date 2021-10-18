@@ -39,6 +39,13 @@ public class MyNode<K> {
 		myNode.setNext(myNewNode);
 		myNewNode.setNext(temp);
 	}
+	
+	public INode pop(){
+		INode temp = this.head;
+		this.head = head.getNext();
+		return  temp;
+	}
+	
 
 	public void printNodes() {
 		StringBuffer myNodes = new StringBuffer("My Nodes :");
