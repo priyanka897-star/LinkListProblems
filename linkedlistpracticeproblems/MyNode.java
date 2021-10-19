@@ -10,7 +10,6 @@ public class MyNode<K> {
 	}
 
 	public void add(INode newNode) {
-
 		if (this.tail == null)
 			this.tail = newNode;
 		if (this.head == null)
