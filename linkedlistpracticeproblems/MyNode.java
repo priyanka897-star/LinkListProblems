@@ -1,6 +1,5 @@
 package linkedlistpracticeproblems;
 
-
 public class MyNode<K> {
 	public INode head;
 	public INode tail;
