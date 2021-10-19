@@ -6,7 +6,7 @@ public class MyNodeTest {
 		given3NumbersWhenAppendedToLinkedListShouldBeAddedToLast();
 	}
 
-	public static void given3NumbersWhenAppendedToLinkedListShouldBeAddedToLast() {
+  public static void given3NumbersWhenAppendedToLinkedListShouldBeAddedToLast() {
 		Node<Integer> firstNumberNode = new Node<Integer>(56);
 		Node<Integer> secondNumberNode = new Node<Integer>(30);
 		Node<Integer> thirdNumberNode = new Node<Integer>(70);
