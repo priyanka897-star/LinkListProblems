@@ -16,7 +16,5 @@ public class MyNodeTest {
 		boolean result = myNode.head.equals(thirdNumberNode) && myNode.head.getNext().equals(secondNumberNode)
 				&& myNode.tail.equals(firstNumberNode);
 		System.out.println(result);
-
 	}
-
 }
