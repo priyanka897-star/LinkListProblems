@@ -1,7 +1,5 @@
 package linkedlistpracticeproblems;
 
-
-
 import linkedlistpracticeproblems.Node;
 
 public class MyNode {
