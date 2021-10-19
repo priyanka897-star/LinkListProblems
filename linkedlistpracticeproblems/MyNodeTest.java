@@ -7,7 +7,7 @@ public class MyNodeTest {
 	}
 
 	public static void giveElementFindKeyNode30AndInsert40After30ShouldPassLinkedListResult(){
-	     Node<Integer> firstNumberNode = new Node<Integer>(56);
+	        Node<Integer> firstNumberNode = new Node<Integer>(56);
 		Node<Integer> secondNumberNode = new Node<Integer>(30);
 		Node<Integer> thirdNumberNode = new Node<Integer>(70);
 		Node<Integer> newNode =   new Node<Integer>(40);
@@ -29,7 +29,5 @@ public class MyNodeTest {
 		boolean finalResult = myNode.head.equals(firstNumberNode) && myNode.head.getNext().equals(secondNumberNode)&&myNode.head.getNext().getNext().equals(newNode)
 				 && myNode.tail.equals(thirdNumberNode);
 		System.out.println(finalResult);
-	
 	}
-
 }
