@@ -7,7 +7,7 @@ public class MyNodeTest {
 	}
 
 	public static void giveElementFindKeyNode30ShouldPassLinkedListResult(){
-	     Node<Integer> firstNumberNode = new Node<Integer>(56);
+	        Node<Integer> firstNumberNode = new Node<Integer>(56);
 		Node<Integer> secondNumberNode = new Node<Integer>(30);
 		Node<Integer> thirdNumberNode = new Node<Integer>(70);
 		MyNode myNode = new MyNode();
@@ -22,7 +22,5 @@ public class MyNodeTest {
 		System.out.println("Search key : "+getNode.getKey());
 		boolean found = getNode.equals(secondNumberNode);
 		System.out.println(found);
-	
 	}
-
 }
