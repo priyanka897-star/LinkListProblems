@@ -10,7 +10,6 @@ public class MyNode<K> {
 	}
 
 	public void add(INode newNode) {
-
 		if (this.tail == null)
 			this.tail = newNode;
 		if (this.head == null)
@@ -46,7 +45,6 @@ public class MyNode<K> {
 		return  temp;
 	}
 	
-
 	public void printNodes() {
 		StringBuffer myNodes = new StringBuffer("My Nodes :");
 		INode temp = head;
