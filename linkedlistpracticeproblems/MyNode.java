@@ -52,10 +52,8 @@ public class MyNode<K> {
 		if (temp.getNext() != null) {
 			temp = temp.getNext();
 		}
-
 		this.tail = temp;
 		head.getNext().setNext(null);
-	
 		return temp;
 	}
 	
