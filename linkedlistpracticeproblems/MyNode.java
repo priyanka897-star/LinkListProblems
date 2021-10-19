@@ -47,7 +47,7 @@ public class MyNode<K> {
 		return temp;
 	}
 
-	public INode popLastNode() {
+	public INode popMiddleNode() {
 		INode temp = head;
 		if (temp.getNext() != null) {
 			temp = temp.getNext();
@@ -55,6 +55,7 @@ public class MyNode<K> {
 
 		this.tail = temp;
 		head.getNext().setNext(null);
+	
 		return temp;
 	}
 	
@@ -68,6 +69,26 @@ public class MyNode<K> {
 		}
 		return temp;
 	} 
+	public void removeNode(int value) {
+		INode node = head;
+		INode previous = null;
+		while (!node.getKey().equals(value)) {
+			previous = node;
+			node = node.getNext();
+		}
+		previous.setNext(node.getNext());
+	}
+	
+	public int size() {
+		INode node = head;
+		int count = 1;
+		while (node.getNext() != null) {
+			count = count + 1;
+			node = node.getNext();
+		}
+		return count;
+	}
+	
 
 	public void printNodes() {
 		StringBuffer myNodes = new StringBuffer("My Nodes :");
