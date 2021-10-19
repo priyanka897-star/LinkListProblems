@@ -16,7 +16,5 @@ public class SortedLinkedList {
 		linkedList.insert(4);
 		linkedList.insert(70);
 		System.out.println("After insertions--");
-		linkedList.displayList();
-
 	}
 }
