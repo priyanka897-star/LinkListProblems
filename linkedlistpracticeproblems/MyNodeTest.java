@@ -15,10 +15,8 @@ public class MyNodeTest {
 		myNode.append(thirdNumberNode);
 		myNode.insert(firstNumberNode, secondNumberNode);
 		myNode.printNodes();
-
 		boolean result = myNode.head.equals(firstNumberNode) && myNode.head.getNext().equals(secondNumberNode)
 				&& myNode.tail.equals(thirdNumberNode);
 		System.out.println(result);
 	}
-
 }
