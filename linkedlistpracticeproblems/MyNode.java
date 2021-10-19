@@ -6,20 +6,19 @@ public class MyNode<K> {
 	public INode tail;
 	
 	public MyNode() {
-		this.head = null;
+	    this.head = null;
 	    this.tail = null;
 	}
 
 	public void add(INode newNode) {
-	
 		if(this.tail == null)
 		this.tail = newNode;
-	    if (this.head == null)
-			this.head = newNode;
-		else {
-			INode temp = this.head; 
-			this.head= newNode;
-			head.setNext(temp);
+	       if (this.head == null)
+		   this.head = newNode;
+	       else {
+		   INode temp = this.head; 
+		   this.head= newNode;
+		  head.setNext(temp);
 		}	
 	}
 	
@@ -47,7 +46,6 @@ public class MyNode<K> {
 		myNodes.append(temp.getKey());
 		System.out.println(myNodes);
 	}
-		
 }
 
 	
